@@ -36,8 +36,11 @@
 \section*{Inleiding}
 
 De samenvatting van BioTechnologie. \href{https://github.com/debber1/BioTech}{De source code is te vinden op Github.}\\
+https://github.com/debber1/BioTech\\
 %DEZE ZIN IS ENKEL RELEVANT TIJDENS DE ONTWIKKELING VAN DIT DOCUMENT
 \textbf{Dit document is een `work in progress', dit wil zeggen dat er (ongeveer) een wekelijkse update zal zijn. De meest recente versie zal altijd op Github staan!}
+\section*{Contributors}
+\href{https://github.com/ItsAlphie}{Jonathan Valgaeren}
 \tableofcontents
 \newpage
 \section{Koolhydraten}
@@ -443,8 +446,6 @@ Membraan proteïnen zijn niet alleen belangrijk voor de communicatie van de cel,
 	\caption{Membraanproteïnen}
 	\label{fig:membraanprot}
 \end{figure}\\
-
-\newpage
 \newpage
 \subsection{2 types cellen}
 We definiëren twee types cellen op basis van de organisatie van genetisch materiaal. Prokaryote cellen hebben geen celkern, Eukaryote cellen hebben membraanomringd DNA.  
@@ -544,10 +545,13 @@ Het cytoskelet is opgebouwd uit proteïnen en vormt een netwerk van onderling ve
 	\caption[Cytoskelet]{Cytoskelet}
 	\label{fig:cytoskelet}
 \end{figure}\\
-Als we verder inzoomen op het cytoskelet, zien we dat het opgebouwd is uit microtubuli. Het zijn kleine, holle cilinders. De synthese hiervan wordt gecontroleerd door het centrosoom. De microtubuli zorgen voor behoud van de cel-vorm en fungeren als transportbaan voor organellen en andere materialen. Het geheel is dynamisch.
+Als we verder inzoomen op het cytoskelet, zien we dat het opgebouwd is uit microtubuli. Het zijn kleine, holle cilinders die de vorm van de cel grotendeels bepalen. De synthese hiervan wordt gecontroleerd door het centrosoom. De microtubuli zorgen voor behoud van de cel-vorm en fungeren als transportbaan voor organellen en andere materialen. Het geheel is dynamisch: de lengte wordt eenvoudig aangepast afhankelijk van waar in de cel stoffen afgeleverd moeten worden. \\
+\\
+Naast de microtubuli zijn er de intermediaire filamenten en actine filamenten. De intermediaire filament bieden net zoals de microtubuli stevigheid via een netwerk tussen de celkern en de plasmamembraan. Het grootste verschil met microtubuli is dat de intermediaire filamenten veel minder dynamisch zijn. \\
+Tot slot zijn er de actine filamenten. Ze vormen en dens netwerk net onder het plasmamembraan. Door het afbreken aan één kant en terug opbouwen aan de andere kant, zorgen zij voor de bewegelijkheid van een cel.
 
 \subsubsection{Centriolen}
-Een centriool is gemaakt van negen sets microtubuli tripletten. In de cel liggen twee centriolen loodrecht op elkaar. We vinden deze structuren enkel in dierlijke cellen, niet in plantencellen. Ze zijn verantwoordelijk voor het organiseren van microtubuli tijdens de celdeling. 
+Een centriool is gemaakt van negen sets microtubuli tripletten. In de cel liggen twee centriolen loodrecht op elkaar, zij vormen het centrosoom. We vinden deze structuren enkel in dierlijke cellen, niet in plantencellen. Ze zijn verantwoordelijk voor het organiseren van microtubuli tijdens de celdeling. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{Centriolen}
@@ -566,9 +570,286 @@ We vinden cilia en flagellen (figuur \ref{fig:ciliaenflagellen}) in eukaryote le
 
 \subsection{Extracellulaire structuren}
 \subsubsection{Celwand}
+De celwand biedt ondersteuning aan veel niet-dierlijke cellen zoals planten, schimmels en protisten. Er zijn ook bacteriën die een celwand hebben, maar dit is een andere structuur. De planten-celwand kent  altijd een primaire celwand. Deze bestaat uit cellulose fibrillen en andere polymeren. Deze wand rekt als de cel groeit. Sommige cellen hebben ook nog een secundaire wand die vormt binnen de primaire celwand. We vinden deze structuur bij houtige planten. De tweede wand voegt lignine toe aan de mix, dit component geeft extra kracht en bescherming. Cellen kunnen verbonden worden door plasmodesmata. Dit zijn kanalen die door de celwand gaan om zo de uitwisseling van water en kleine moleculen mogelijk te maken.
 \subsubsection{Extracellulaire matrix}
+De extracellulaire matrix (ECM) vinden we in dierlijke cellen, dit te vervanging van de celwand. Het is opgebouwd uit een complex netwerk van proteïnen en polysachariden, voorbeelden hiervan zijn collageen en elastine. Er bestaan meerdere types van deze matrix, zo kunnen we flexibel kraakbeen maken en relatief hard bot. 
 \subsubsection{Juncties tussen cellen}
-\subsection{Wat met virussen?}
+Adhesie juncties (figuur \ref{fig:Adhesie}) hebben interne cytoplasmatische structuren verbonden door intercellulaire filamenten. Het zijn stevige maar flexibele verbindingen tussen cellen. `tight' juncties (figuur \ref{fig:Tight}) zijn lekdichte verbindingen tussen cellen. Tot slot zijn gap juncties (figuur \ref{fig:Gap}) de juncties die zorgen voor communicatie tussen twee aanliggende cellen. Het zijn kanalen doorheen de plasmamembranen.   
 
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{.33\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Adhesie_Junctie}
+		\caption{Adhesion Junction}
+		\label{fig:Adhesie}
+	\end{subfigure}%
+	\begin{subfigure}{.33\textwidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Tight_Junctie}
+		\caption{Tight Junction}
+		\label{fig:Tight}
+	\end{subfigure}%
+	\begin{subfigure}{.33\textwidth}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Gap_Junctie}
+	\caption{Gap Junction}
+	\label{fig:Gap}
+	\end{subfigure}
+	\caption{Verschillende soorten juncties}
+	\label{fig:Juncites}
+\end{figure}
+\subsection{Cellulaire reproductie}
+Bij prokaryote cellen kennen we Binaire splitsing (figuur \ref{fig:binairesplitsing}). Eukaryote cellen kennen 2 manieren van reproductie, het meiose proces wat meestal bij seksuele reproductie voorkomt. Het mitose proces is veel vaker gebruikt om een kloon te maken van de cel. We zien dat dit in een soort cyclus gebeurt (figuur \ref{fig:celcyclus}). Dit proces wordt sterk gecontroleerd in ons lichaam, als er te weinig mitose is worden cellen niet meer vervangen. Te veel mitose zorgt daarentegen voor cellen die ongecontroleerd reproduceren, wat de voorbode is voor tumors en kankers.  
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Celcyclus}
+		\caption{Mitose celcyclus}
+		\label{fig:celcyclus}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Binaire_Splitsing}
+		\caption[Splitsing]{Binaire splitsing}
+		\label{fig:binairesplitsing}
+	\end{subfigure}
+	\caption{Celreproductie}
+	\label{fig:reproductie}
+\end{figure}
+\newpage
+\subsection{Wat met virussen?}
+We zien virussen eigenlijk niet als levende organismen. Dit komt omdat ze niet opgebouwd zijn volgens normale cellen. Het kan zichzelf niet voortbewegen of zelfs voortplanten (een virus heeft een gastheercel nodig om zich voort te planten). Er is zelfs geen metabolisme aanwezig in een virus, we zien ze dus als dood materiaal. Er zijn enkele onderdelen die we herkennen bij alle virussen: we zien altijd een buitenste capside die samengesteld is uit proteïnen. Binnenin is er DNA of RNA aanwezig, het viraal genoom is zeer klein en kan verschillende vormen aan nemen. We kunnen over het algemeen ook stellen dat ze kleiner zijn dan andere cellen (we hebben een elektronen microscoop nodig om ze te zien). Sommige virussen hebben ook nog spikes voor de aanhechting met de gastheercel, er kan ook een enveloppe aanwezig zijn. 
+\newpage
+\section{Cases in rode biotechnologie}
+\subsection{Wat is rode biotechnologie}
+Rode biotechnologie gaat over de medische toepassingen die mogelijk gemaakt worden door onderzoek naar biotechnologie. Enkele voorbeelden zijn tests, ontwikkeling van geneesmiddelen en ontwikkeling van vaccins. 
+\subsubsection{Diagnostische tests}
+Door ontwikkelingen in diagnostische tests, is het mogelijk om sneller en goedkoper ziektes en aandoeningen op te sporen. Een voorbeeld hiervan is biomarker detectie. Biomarkers zijn moleculen die makkelijk detecteerbaar zijn, en een sterke indicator zijn van een aanwezige ziekte of de gezondheidstoestand van het lichaam. PSA is een voorbeeld van een biomarker die gebruikt wordt bij het opsporen van prostaatkanker. Ook de NIPT test wordt vaak gebruikt bij het detecteren van genetische afwijkingen bij ongeboren baby's, via een simpele bloedafname bij de moeder (risicoloos) kunnen we een schatting maken van de gezondheid van de baby.
+\subsubsection{Geneesmiddelenontwikkeling en gentherapie}
+Door het toepassen van de `High throughput screening' (HTS) methode (figuur \ref{fig:hts}), is het mogelijk om geneesmiddelen te ontwikkelen. In dit proces beginnen we met onderzoek naar moleculen die potentieel gebruikt kunnen worden om bacteriën te doden. Er wordt een keuze gemaakt om enkele duizenden moleculen te testen. In deze tests worden de bacteriën samengebracht met 1 molecule om te zien of ze zullen sterven, dit is volledig geautomatiseerd. Alle stoffen die erin slagen om de bacterie te doden gaan naar de volgende stap. Hier testen we op toxiciteit bij mensen, dit gebeurd op vrijwel dezelfde manier maar dan met menselijke cellen in plaats van bacteriën. Alle stoffen die niet toxisch zijn voor menselijk weefsel, kunnen door gaan naar de tests op organismen. Hierbij wordt de stof eerst toe gediend aan gezonde dieren, om te zien wat de effecten zijn. We gaan dan stapsgewijs over naar dieren die besmet zijn met de bacterie. Als deze testen positief zijn, kunnen we over gaan naar menselijke testen. Indien ook deze een gunstig resultaat opleveren, hebben we een werkend medicijn gevonden. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{HTS}
+	\caption[HTS]{Hight Throughput screening}
+	\label{fig:hts}
+\end{figure}
+
+Door biotechnologie kunnen we ook bacteriën gebruiken om medicijnen mee te maken. Een voorbeeld hiervan is dat we insuline voor diabeten niet meer halen bij varkens, maar laten produceren door een bacterie. Meer hierover in sectie \textcolor{red}{TEMP REF TO MOLECULAIRE GENETICA}.
+\subsubsection{Vaccin ontwikkeling}
+Bij de ontwikkeling van een klassiek vaccin, is het doel om een verzwakte variant van het virus in kwestie te vinden. Dit verzwakte virus zal dan in contact komen met B-cellen, die op hun beurt antilichamen zullen aanmaken om het virus te herkennen. Dit antilichaam zal dan ook onthouden worden door ons immuunsysteem om dan efficiënter te kunnen reageren als het volwaardige virus ons lichaam binnen komt. 
+
+Een RNA vaccin geeft de genetische informatie om het antilichaam te produceren direct aan ons immuunsysteem. Dit kan door het feit dat we de RNA instructies via met een lipidejas tot in de cellen krijgen, hierna zal het ribosoom  de instructies herkennen om dan te beginnen met de productie van de nodige proteïnen om de antilichamen aan te maken. Opnieuw krijgen wee een soort geheugen van dit antilichaam, waardoor  ons lichaam efficiënter reageert als het volwaardige virus ons lichaam binnen komt.
+\subsection[Case study]{Case study: cellen gebruiken als therapeutisch agens}
+We gebruiken nu al cellen om mensen te genezen, zo doen we al jaren aan bloed transfusies en orgaan transplantaties. Deze klassieke methoden hebben wel enkele nadelen. Vooral bij orgaan donaties zien we vaak de afstoting van de nieuwe cellen, ook tekorten zijn een groot probleem bij deze technieken. 
+\subsubsection{Welke celtypes}
+De rode biotechnologie probeert dit op te lossen met behulp van verschillende technieken. In deze case study zullen we dieper ingaan op het gebruik van embryonale-, kiem- en stam-cellen. Dit zijn cellen die over het algemeen nog niet volledig gedifferentieerd zijn, en dus nog hun functie kunnen `kiezen'.
+\paragraph{Volwassen somatische cellen}
+Het grootste deel van een volwassen menselijk lichaam bestaat uit somatische cellen. Dit zijn de cellen die al gedifferentieerd zijn, omdat ze slechts een beperkte hoeveelheid mitose cycli kunnen ondergaan, gaan deze cellen na een tijdje `kapot'. Dit zijn dan ook de cellen die we proberen te vervangen door nieuwe cellen, die nog een langer leven voor zich hebben. 
+\paragraph{Embryonale cellen}
+Embryonale cellen zijn cellen die aanwezig zijn bij in de blastula fase van de ontwikkeling van een embryo. Deze cellen zien we in drie verschillende soorten: totipotent, pluripotent en multipotent. Deze cellen kunnen respectievelijk differentiëren tot alle, veel of slechts bepaalde celtypes. In een ideaal geval gebruikt men dus het best totipotente cellen. In de praktijk zien we echter dat het vlotter is om met pluri- en multi-potente cellen te werken. Deze celtypes hebben nog altijd een groot potentieel, maar zijn makkelijker om mee te werken dan totipotente cellen.   
+\paragraph{Kiemcellen}
+Kiemcellen zijn cellen die meiose kunnen ondergaan. Bij de mens gaat dit dus om sperma en eicellen. In een volwassen lichaam zijn er relatief weinig cellen van dit soort aanwezig. We kunnen ze wel gebruiken om embryonale cellen te maken. 
+\paragraph{Stamcellen}
+Stamcellen zijn in kleine mate aanwezig in een volwassen menselijk lichaam. We definiëren ze als celen die zichzelf vernieuwen, niet gespecialiseerd zijn en hebben nog de mogelijkheid om te differentiëren naar een groot aantal verschillende celtypes. We maken ook een onderscheid tussen volwassen en embryonale stamcellen. Stamcellen zijn tevens de meest interessante cellen om mee te experimenteren.
+
+Omdat stamcellen zo'n groot potentieel kennen, is er een grote vraag. Dit vormt een probleem omdat volwassen stamcellen vrij beperkt voorkomen in ons lichaam. Het gebruik van Embryonale stamcellen komt dan weer met ethische problemen. Deze problemen kunnen echter opgelost worden door het modificeren van normale somatische cellen. Door vier specifieke genen te modificeren verkrijgen we een geïnduceerde pluripotente stamcel (iPSC). Deze stamcellen kunnen we dan zonder problemen gebruiken als substitutie voor een normale stamcel.
+
+Over het algemeen verloopt het proces om iPSC's te maken als volgt: We nemen eerst enkele cellen van de patiënt. Deze cellen zullen we dan met in vitro modificeren tot een iPSC. Deze laten we dan met specifieke moleculen differentiëren tot het gewenste celtype. Hiernaa kunnen we de cellen terug bij de patiënt inbrengen. Dit proces biedt enkele voordelen, het is patiënt specifiek dus de risico's op afstoting dalen sterk. Het type cel waarmee men het proces start maakt niet uit, waardoor we gezonde cellen uit een willekeurig deel van het lichaam kunnen gebruiken om een beschadigt of ziek deel te genezen. 
+\subsubsection{Cellen als therapeutica}
+Cellen gebruiken als behandeling voor een ziekte is een vrij nieuwe ontwikkeling. Als voorbeeld kunnen we kijken naar de chemo behandeling voor kanker-patiënten. Traditioneel wordt chemo toegediend door de stof rechtstreeks in de bloedstroom te brengen. Hierdoor kan de chemo niet enkel de kankercellen aanvallen, maar ook gezonde cellen. We kunnen chemo op een specifieke plaats in het lichaam laten inwerken door gebruik te maken van cellen. Dit doet men door de chemo in te brengen bij een cel, die op zijn beurt enkel zijn inhoud vrijlaat bij een specifieke plaats in het lichaam zoals kankercellen. Deze methode heet targeted drug delivery.
+
+Een tweede voorbeeld vinden we bij diabetisch patiënten. Door nieuwe $\beta$-cellen te maken uit de vooraf beschreven procedure, geven we een patiënt opnieuw de kans om op zichzelf insuline te produceren. Hier komt wel een belangrijk probleem naar boven, er zijn cellen die we makkelijk kunnen maken zoals huidcellen. Maar er zijn ook enkele celtypes die vrij lastig zijn om efficiënt te produceren zoals de cellen die nodig zijn om diabetisch te behandelen. 
+\subsubsection{Van cellen naar weefsels}
+Het is ook mogelijk om weefsels te maken met stamcellen. Deze weefsels zijn eigenlijk een groep cellen met een gelijkaardige functie die aan het samenwerken zijn. Voorbeelden hiervan zijn zenuwweefsel of spierweefsel. Opnieuw zijn er enkele weefsels die makkelijker te produceren zijn dan andere. Op dit moment is het nog onmogelijk om organen (wat een groep weefsels is) te maken met deze methoden. 
+\subsection[Ingenieurs in rode biotechnologie]{Verschillende rollen van ingenieurs in rode biotechnologie}
+We hebben ingenieurs nodig om deze doorbraken mogelijk te maken. Om vooruitgang te maken op deze vlakken, moet er een enorme hoeveelheid data verwerkt worden. Dit noemt datamining. Hiervoor hebben we niet alleen ingenieurs nodig met verstand van biologie, maar ook van elektronica en software om alles zo efficiënt mogelijk te laten verlopen.  
+\section{De dynamische cel}
+\subsection{Wat is energie?}
+We kennen 2 vormen van energie: potentiële en kinetische energie. We kunnen altijd vormen van energie omzetten in elkaar, er komt wel een verlies kijken bij deze omzetting onder de vorm van warmte. Onze biosfeer haalt zijn energie uit de zon.
+
+In de biologie zullen energie vaak uitdrukken in calorieën. Een calorie wordt gedefinieerd als de energie die nodig is om 1 gram zuiver water met 1 kelvin te laten toenemen. De energie waarden van onze voeding is vaak uitgedrukt in kilocalorieën oftewel 1000 calorieën. 
+\newpage
+\subsection{ATP: energie voor cellen}
+Adenosinetrifosfaat oftewel ATP (zie figuur \ref{fig:atp}) is een molecule dat als universele `energiemunt' dient in cellen. ATP wordt dan ook bij enorm veel reacties gebruikt.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ATP}
+	\caption[APT]{Adenosinetrifosfaat}
+	\label{fig:atp}
+\end{figure}\\
+ATP kan makkelijk als energie bron dienen omdat het instabiel is, het is namelijk gemaakt uit één nucleotide samen met drie fosfaatgroepen. Door deze onstabiliteit, verliest ATP graag een fosfaatgeroep om ADP oftewel adenosinedifosfaat te vormen. Bij dit proces komt heel wat energie vrij. Om terug te gaan naar ATP wordt er energie van de cellulaire ademhaling gebruikt om ADP en de overgebleven fosfaatgroep terug samen te zetten. Deze cyclus van afbraak en regeneratie blijft zich constant herhalen (zie figuur \ref{fig:atpcycle}).
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ATPcycle}
+	\caption[ATP cylcus]{ATP cyclus}
+	\label{fig:atpcycle}
+\end{figure}
+Reacties die ATP gebruiken als energiebron, gebruiken vaak het gekoppeld reactie mechanisme. Dit houd in dat de energie die nodig is om de reactie uit te voeren geleverd word door een parallel lopende afbraak van APT tot ADP (Zie figuur \ref{fig:atpcoupeling}). 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ATPCoupeling}
+	\caption[ATP Koppeling]{ATP koppeling}
+	\label{fig:atpcoupeling}
+\end{figure}
+ATP wordt op zijn beurt gemaakt door de activiteiten van chloroplasten en mitochondriën. Deze zetten respectievelijk via fotosynthese en cellulaire ademhaling, zonnelicht om in ATP. 
+\subsection{Metabolische pathways en enzymen}
+\label{sec:enzymen}
+De meeste biologische processen lopen traag en met veel tussenstappen, dit is natuurlijk niet wenselijk voor de dagelijkse werking van ons lichaam. Om elk van deze deelprocessen te versnellen maakt de natuur gebruik van enzymen (zie figuur \ref{fig:enzymenstappen}), dit zijn een soort biologische katalysatoren. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{EnzymenStappen}
+	\caption[Enzymen]{Reactiestappen ondersteund door enzymen}
+	\label{fig:enzymenstappen}
+\end{figure}\\
+Een enzym heeft een actieve site waarop de echte reactie kan gebeuren. Deze site heeft een specifieke vorm zodat enkel het gewenste substraat gebruik kan maken van het enzym (zie figuur \ref{fig:sleutelslot}). Een belangrijke eigenschap is dat enzymen hergebruikt kunnen worden, dit wil zeggen dat we niet telkens onze energie moeten gebruiken om katalysatoren te produceren. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{SleutelSlot}
+	\caption[Sleutel Slot]{Sleutel Slot model}
+	\label{fig:sleutelslot}
+\end{figure}
+Er is echter wel een probleem met de recyclage van enzymen. Het is mogelijk dat de reactie te veel door gaat, zodat er te veel eindproduct gevormd wordt. Een oplossing is feedbackinhibitie, dit wil zeggen dat het eindproduct ervoor zal zorgen dat één van de eerste enzymen in het reactiemechanisme zijn werk niet meer kan doen, waardoor dat de reactie ook niet meer wordt verdergezet. \\
+
+Enzymen doen hun werk door de activeringsenergie $E_a$ van de reactie te verlagen. Deze lagere activatie-energie zorgt ervoor dat het proces exponentieel sneller zal verlopen (zie figuur \ref{fig:activatieenergie}). 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ActivatieEnergie}
+	\caption[Activatie energie]{Activatie energie}
+	\label{fig:activatieenergie}
+\end{figure}
+
+
+
+\subsection{Cellulaire transportsystemen}
+Cellulaire transportsystemen zijn systemen die het transport door de plasmamembraan regelen. Deze membraan is wel selectief doorlaatbaar, sommige stoffen passeren vrij, andere worden tegengehouden. We kunnen grosso modo drie verschillende manieren onderscheiden: passief, actief en bulk transport. 
+\subsubsection{Passief transport}
+Passief transport is gewone eenvoudige diffusie, er is geen energie nodig voor dit proces. De moleculen bewegen namelijk volgens hun concentratiegradiënt (van hoge concentratie naar lage concentratie), het proces stopt pas als er evenwicht bereikt wordt. De energie die nodig is voor deze beweging komt niet van de cel, maar is een gevolg van het feit dat moleculen op zichzelf al in beweging zijn. Sommige moleculen zijn zelfs in staat om tussen de fosfolipiden van de celmembraan te geleiden.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Diffusie}
+	\caption[Diffusie]{Diffusie}
+	\label{fig:diffusie}
+\end{figure}
+
+\paragraph{Facilitated diffusion}
+Opnieuw gaat het hier om diffusie, waarbij dat stoffen van een hoge concentratie naar een lage concentratie vloeien. Maar bij facilitated diffusion krijgen de moleculen hulp van een membraanproteïne om op een efficiëntere manier door het celmembraan te gaan.  
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{FacilitatedDiffusion}
+	\caption[Facilitated diffusion]{Facillitated diffusion}
+	\label{fig:facilitateddiffusion}
+\end{figure}
+
+\subsubsection{Osmose}
+Osmose is diffusie van water door een semipermeabel membraan. Hierbij bewegen watermoleculen van een lage concentratie opgeloste stof naar een hoge concentratie opgeloste stof. Bij cellen zal dit transport vaak gaan via aquaporines, dit zijn proteïnen in de kernmembraan die de passage van water mogelijk maken. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Osmose}
+	\caption[Osmose]{Osmose}
+	\label{fig:osmose}
+\end{figure}
+\paragraph{Isotone omstandigheden}
+We spreken over isotone omstandigheden als de concentratie van opgeloste stoffen binnen en buiten de cel gelijk zijn. Dit zorgt ervoor dat er netto geen watertransport plaats vindt. Rode bloedcellen bevinden zich in een isotone situatie als ze zich in een 0.9\% zoutoplossing (saline) bevinden.
+\paragraph{Hypotone omstandigheden}
+We spreken over hypotone omstandigheden als de concentratie van de opgeloste stoffen binnen de cel groter is dan de concentratie opgeloste stoffen buiten de cel. Deze omstandigheden zorgen ervoor dat water zich zal begeven naar de cel, en die zal als gevolg ook opzwellen. In extreme gevallen kan een cel hierdoor zelfs barsten. Planten gebruiken hypotone omstandigheden om hun vacuole te vullen met water, hierdoor is er wat extra stevigheid.
+\paragraph{Hypertone omstandigheden}
+We spreken over hypertone omstandigheden als de concentratie van de opgeloste stoffen binnen de cel kleiner is dan de concentratie opgeloste stoffen buiten de cel. Deze omstandigheden zorgen ervoor dat water zich zal begeven naar de buitenkant van de cel. Dit zal zorgen voor het inkrimpen van de cel in kwestie. In extreme gevallen verliest de cel hierdoor de mogelijkheid om te functioneren. 
+\subsubsection{Actief transport}
+Bij actief transport gebruikt de cel energie om moleculen te bewegen tegen de concentratiegradiënt. Dit proces verloopt opnieuw via transportproteïnen in de celmembraan. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"Actief transport"}
+	\caption[Actief transport]{Actief transport}
+	\label{fig:actief-transport}
+\end{figure}
+
+\subsubsection{Bulktransport}
+Bulktransport wordt meestal gebruikt om macromoleculen te transporteren. Deze zijn namelijk vaak te groot om via normale transportmoleculen vervoerd te worden. Dit proces werkt door de vorming van vesikels waardoor het transport door het celmembraan mogelijk wordt. We spreken van Endocytose (figuur \ref{fig:endocytose}) waarbij we een molecule of partikels naar binnen bewegen, of van exocytose (figuur \ref{fig:exocytose}) waarbij moleculen of partikels naar buiten bewegen. 
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{endocytose}
+		\caption{Endocytose}
+		\label{fig:endocytose}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{exocytose}
+		\caption[Splitsing]{Exocytose}
+		\label{fig:exocytose}
+	\end{subfigure}
+	\caption{Bulktransport}
+	\label{fig:bulktransport}
+\end{figure}
+\newpage
+\section{Energie voor cellen}
+\subsection{Cellulaire respiratie}
+Cellulaire respiratie is het proces om ATP moleculen te produceren. Dit gebeurt in de mitochondriën door glucose te oxideren tot $CO_2$ en $H_2O$. De zuurstof die nodig is om dit alles tot een goed einde te brengen, wordt geleverd door onze ademhaling. Vanuit een zuiver biochemisch standpunt is dit het omgekeerde van fotosynthese. 
+
+De afbraak van glucose gebeurt stapsgewijs zoals beschreven in sectie \ref{sec:enzymen} (zie figuur \ref{fig:oxidatiesuiker}). De energie die vrij komt wordt gebruikt om ATP mee te produceren. De aanwezige coenzymes (niet-proteïne moleculen die enzymwerking ondersteunen) worden gereduceerd ($+H^+$) zoals bijvoorbeeld $NAD^+ \rightarrow NADH$.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{OxidatieSuiker}
+	\caption[Oxidatie suiker]{Oxidatie suiker}
+	\label{fig:oxidatiesuiker}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ATPProductie}
+	\caption[ATP productie]{ATP productie}
+	\label{fig:atpproductie}
+\end{figure}\\
+\newpage
+\subsection{Buiten de mitochondriën: glycolyse}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{MitochondriaGlycolyse}
+	\caption[Glycolyse]{Glycolyse}
+	\label{fig:mitochondriaglycolyse}
+\end{figure}
+Glycolyse gebeurt vooral in eukaryote cellen. Het proces vindt plaats in het cytoplasma van de cel. Hierbij wordt glucose afgebroken tot twee moleculen pyruvaat. Hiebij komt ATP en NADH vrij. zie figuur \ref{fig:mitochondriaglycolyse}.
+\subsection{Buiten de mitochondriën: fermentatie}
+Fermentatie is een anaeroob proces, dit wil zeggen dat er geen zuurstof wordt gebruikt bij het de productie van energie moleculen (zie figuur \ref{fig:fermentatie}). Afhankelijk van de cel waarin fermentatie plaats vindt, zullen de reactie producten verschillen. In de mens zullen we vooral pyruvaat omzetten naar lactaat/melkzuur, maar gisten kunnen pyruvaat omzetten naar ethanol en $C0_2$. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Fermentatie}
+	\caption[Fermentatie]{Fermentatie}
+	\label{fig:fermentatie}
+\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{BuitenEnergieProces}
+	\caption[Buiten mitochondria]{Het volledige energie productie proces buiten de mitochondriën}
+	\label{fig:buitenenergieproces}
+\end{figure}
+\newpage
+\subsection{In de mitochondriën}
+Binnen de mitochondriën vind de pyruvaatoxidatie en citroenzuurcyclus plaats. De productie van ATP loopt aan de hand van het schema in figuur \ref{fig:energieproductiemito}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{EnergieProductieMito}
+	\caption[Mitochondriën energieproductie]{Mitochondriën energieproductie}
+	\label{fig:energieproductiemito}
+\end{figure}\\
+De elektronentransportketen ETC binnen de mitochondriën volgt het schema uit figuur \ref{fig:elektrontransport}. Hierbij stelt de Oranje pijl de `flow' van elektronen aan via `carriers' in de ETC. $H^+$ ionen accumuleren in de intermembraanruimte van het mitochondrium, deze gradiënt wordt gebruikt in het ATP-synthasecomplex om ATP aan te maken.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ElektronTransport}
+	\caption[ETC]{Elektronentransportketen}
+	\label{fig:elektrontransport}
+\end{figure}
+\newpage
+\subsection{Metabolisme van voeding}
+Cellen gebruiken ook andere energiebronnen zoals proteïnen en vetten. Dit proces loopt volgens het schema in figuur \ref{fig:energieinvoeding}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{EnergieInVoeding}
+	\caption[Energie in voeding]{Energie in voeding}
+	\label{fig:energieinvoeding}
+\end{figure}
 
 \end{document}
