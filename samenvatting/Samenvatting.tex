@@ -20,6 +20,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{titlesec}
+\usepackage[shortlabels]{enumitem}
 
 \setcounter{secnumdepth}{4}
 
@@ -968,17 +969,17 @@ Het proces kan beschreven worden als een base-gekatalyseerde reactie met natrium
 \newpage
 \section{Proteïnen}
 \subsection{Inleiding}
-Eiwitten worden overal gebruikt in ons lichaam, van structurele doeleinden tot biologische katalyse met enzymen. Dit wordt mogelijk gemaakt door de grote diversiteit in (3D-)structuur bij proteïnen. 
+Eiwitten worden overal gebruikt in ons lichaam. De toepassingen kunnen variëren van structurele doeleinden tot biologische katalyse met enzymen. Deze grote variatie is te danken aan de grote diversiteit in (3D-)structuur bij proteïnen. 
 \subsection{Aminozuren}
 \subsubsection{Structuur en eigenschappen}
-In deze sectie zullen we vooral spreken over de structuur van $\alpha$-aminozuren. Deze bestaan uit een carboxylgroep (organisch zuur) en een aminogroep (organische base) gekoppeld aan een $C_{\alpha}$ atoom. Dit is een chirale koolstof die voor twee enantiomeren zorgt (behalve bij glycine) (zie sectie \ref{sec:enantiomeren}). We spreken pas van proteïnogene aminozuren als ze in een L-configuratie voorkomt. 
+In deze sectie hebben we voornamelijk over de structuur van $\alpha$-aminozuren. Ze bestaan uit een carboxylgroep (organisch zuur) en een aminogroep (organische base) gekoppeld aan een $C_{\alpha}$ atoom. Dit is een chirale koolstof dat voor twee enantiomeren zorgt (behalve bij glycine) (zie sectie \ref{sec:enantiomeren}). We spreken pas van proteïnogene aminozuren als ze in een L-configuratie voorkomen. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{AminoZuur}
 	\caption[Aminozuur]{Structuur aminozuur}
 	\label{fig:aminozuur}
 \end{figure}\\
-De eigenschappen van een aminozuur hangen deels af van de pH van de omgeving waarin het zich bevindt. Bij een lage pH zal het aminozuur een kation vormen, bij een hoge pH daarentegen zal er een anion gevormd worden. Tot slot zal er bij een neutrale pH een zwitterion gevormd worden. De grootste impact op de eigenschappen komt van de R-groep die onderaan gebonden is in figuur \ref{fig:aminozuur}. We onderscheiden hier vier verschillende subgroepen in: 
+De eigenschappen van een aminozuur hangen deels af van de pH van de omgeving. Bij een lage pH zal het aminozuur een kation vormen, bij een hoge pH daarentegen zal het een anion vormen. Tot slot zal er bij een neutrale pH een zwitterion gevormd worden. De grootste impact op de eigenschappen van het aminozuur komt echter van de R-groep die onderaan gebonden is in figuur \ref{fig:aminozuur}. We onderscheiden hier vier verschillende subgroepen in: 
 \begin{itemize}
 	\item hydrofoob
 	\item hydrofiel (met polaire R-groepen)
@@ -987,9 +988,9 @@ De eigenschappen van een aminozuur hangen deels af van de pH van de omgeving waa
 \end{itemize} 
 Het is vooral belangrijk dat men deze subgroepen kan herkennen. Het is niet de bedoeling dat alle namen en structuren uit het hoofd geleerd worden. 
 \subsubsection{Aminozuren in voeding}
-Aminozuren zijn een uitstekende bron van koolstof, stikstof en zwavel. Eiwit-rijke voeding zoals vis, vlees of een goeie mix aan groenten zijn dus perfect om deze stoffen op te nemen. Bovendien kennen deze bronnen ook de aanwezigheid van essentiële aminozuren, dit zijn aminozuren die ons lichaam niet zelf kan aanmaken maar wel nodig heeft om correct te functioneren. 
+Aminozuren zijn een uitstekende bron van koolstof, stikstof en zwavel. Eiwitrijke voeding zoals vis, vlees of een goeie mix aan groenten zijn dus ideaal om deze stoffen op te nemen. Bovendien bevat de vermelde voeding essentiële aminozuren. Essentiële aminozuren zijn aminozuren die ons lichaam niet zelf kan aanmaken maar wel nodig heeft om correct te functioneren. 
 \subsubsection{Niet-proteïnogene aminozuren}
-Niet-proteïnogene aminozuren die geen deel uitmaken van proteïne. Voorbeelden hiervan zijn:
+Niet-proteïnogene aminozuren zijn aminozuren die geen deel uitmaken van een proteïne. Voorbeelden hiervan zijn:
 \begin{itemize}
 	\item Thyroxine: schildklierhormoon
 	\item $\gamma$-aminoboterzuur (GABA): neurotransmitter
@@ -998,33 +999,39 @@ Niet-proteïnogene aminozuren die geen deel uitmaken van proteïne. Voorbeelden 
 
 \subsection{Peptidebinding}
 \subsubsection{Peptiden en Polypeptiden}
-Peptiden worden opgebouwd door verschillende aminozuren aan elkaar te koppelen. Het gaat hierbij zoals in figuur \ref{fig:reactiepeptiden} te zien is, om een reactie tussen de carboxylgroep van één aminozuur en de aminogroep van een ander aminozuur. Hierbij verdwijnen de ladingen van de carboxyl- en aminogroep. 
+Peptiden bestaan uit verschillende aminozuren die aan elkaar gekoppeld zijn. Het gaat hierbij om een reactie tussen de carboxylgroep van één aminozuur en de aminogroep van een ander aminozuur, zoals in figuur \ref{fig:reactiepeptiden} te zien is. Hierbij verdwijnen de ladingen van de carboxyl- en aminogroep.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{ReactiePeptiden}
 	\caption[Reactie peptiden]{Koppeling van aminozuren}
 	\label{fig:reactiepeptiden}
 \end{figure}\\
-De algemene naamgeving van peptiden is gebaseerd op het aantal gebonden aminozuren. We spreken over oligopeptiden als er minder dan 20 aminozuren aanwezig zijn, polypeptiden als er minder dan 50 aanwezig zijn en tot slot over proteïnen als er meer dan 50 aanwezig zijn We kunnen natuurlijk ook praten over dipeptiden zoals glycylalanine. Als we de chemische structuur willen tekenen, oriënteren we de molecule van N-terminaal naar C-terminaal.
+De algemene naamgeving van peptiden is gebaseerd op het aantal gebonden aminozuren: 
+\begin{itemize}
+	\item Minder dan 20: oligopeptiden
+	\item Tussen 20 en 50: polypeptiden
+	\item Meer dan 50: proteïnen
+\end{itemize} 
+Tot slot zijn er nog enkel aparte gevallen zoals dipeptiden, bijvoorbeeld glycylalanine. Het is belangrijk wanneer we de chemische structuur willen tekenen, dat we de moleculen oriënteren van het N-uiteinde naar het C-uiteinde.
 
 \subsubsection{Chemische en biologische synthese van peptiden}
-Om peptiden te synthetiseren kunnen we gebruik maken van 2 processen. Chemische synthese en biosynthese. Bij chemische synthese laten we twee aminozuren met elkaar reageren op een gecontroleerde manier. De controle op dit proces is echter wel gelimiteerd, het is namelijk moeilijk om de juiste oriëntatie en volgorde te garanderen. Hierdoor ontstaan een hoop ongewenste bijproducten. Om dit te vermijden, maken we gebruik van `blokkeren'. Hierbij blokken we bepaalde reactieve groepen door een tijdelijke groep aan te brengen. Na het aanbrengen, kunnen we de aminozuren met elkaar laten reageren om dan tot slot de tijdelijke blokker groepen te verwijderen. Het hele proces duurt lang, zorgt voor veel afval en is over het algemeen duur. Daarom gebruikt men liever biosynthese.
+Om peptiden te synthetiseren kunnen we gebruik maken van 2 processen: chemische synthese en biosynthese. Bij chemische synthese laten we twee aminozuren met elkaar reageren op een gecontroleerde manier. De controle op dit proces is echter gelimiteerd, het is namelijk moeilijk om de juiste oriëntatie en volgorde te garanderen. Hierdoor ontstaan veel ongewenste bijproducten. Om dit te vermijden, maken we gebruik van `blokkeren'. Hierbij blokken we bepaalde reactieve groepen door een tijdelijke groep aan te brengen. Na het aanbrengen, kunnen we de aminozuren met elkaar laten reageren om dan tot slot de tijdelijke blokker-groepen te verwijderen. Het hele proces duurt lang, zorgt voor veel afval en is over het algemeen duur. Daarom gebruikt men liever biosynthese.
 
-Bij biosynthese maakt men gebruik van verschillende cellen om de peptiden te produceren. Concreet geven we een specifieke nucleotide-sequentie (mRNA) die door het ribosoom vertaald wordt in een aminozuur-sequentie. Deze synthese kent zijn oorsprong bij het stikstof uiteinde van een peptide, om zo verder te bouwen tot het eind. Meer informatie over het ribosoom kan men vinden in sectie \textcolor{red}{TEMP REF TO DNA-BIO}.
+Bij biosynthese maakt men gebruik van verschillende cellen om de peptiden te produceren. Concreet werken we met een specifieke nucleotide-sequentie (mRNA) die door het ribosoom vertaald wordt in een aminozuur-sequentie. Deze synthese kent zijn oorsprong bij het stikstof uiteinde van een peptide, om zo verder te bouwen tot het eind. Meer informatie over het ribosoom kan men vinden in sectie \textcolor{red}{TEMP REF TO DNA-BIO}.
 \newpage
 \subsection{Structuur van proteïnen}
 \subsubsection{Primaire, secundaire tertiaire en quaternaire structuur}
 \paragraph{Primaire structuur}
 Op een moleculair niveau zijn peptiden een lineaire opvolging van aminozuren. Per conventie tekenen we deze keten van stikstof- naar koolstof-uiteinde. Elk van deze aminozuren is verbonden met de volgende door middel van een peptide-binding. We krijgen hierdoor ook een vlakke ruimtelijke structuur. Meer specifiek door de resonantiestructuur en het gedeeltelijk dubbel bindingskarakter van de $sp^2$-hybridisatie. 
 \paragraph{Secundaire structuur}
-De secundaire structuur houdt rekening met de interacties tussen verschillende moleculen. Zo zien we dat door middel van een waterstofbrug tussen amide- en carbongroepen (zie figuur \ref{fig:secundairestructuur}) een soort lokale vouw kan komen in specifieke structuren. 
+De secundaire structuur houdt rekening met de interacties tussen verschillende moleculen. Zo zien we dat door middel van een waterstofbrug tussen amide- en carbongroepen (zie figuur \ref{fig:secundairestructuur}) een soort lokale vouw voorkomt in specifieke structuren. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{SecundaireStructuur}
 	\caption[Secundaire structuur proteïne]{Secundaire structuur proteïne}
 	\label{fig:secundairestructuur}
 \end{figure}\\
-We zien deze vouwen hoofdzakelijk terugkomen onder de vorm van een $\alpha$-helix of een $\beta$-sheet. De $\alpha$-helix vorm zal uitsluitend met zichzelf een waterstofbrug vormen, wat zal leiden tot een vorm zoals te zien is in het linker deel van figuur \ref{fig:secundairestructuurtype}. Een $\beta$-sheet daarentegen kan interacties vormen met andere peptiden, maar dit is geen verplichting. Het kan ook voorkomen dat een peptide met zichzelf een $\beta$-sheet vormt zoals te zien is op het rechter deel van figuur \ref{fig:secundairestructuurtype}. We spreken hierbij over antiparallel en parallel.
+We zien deze vouwen voornamelijk terugkomen onder de vorm van een $\alpha$-helix of een $\beta$-sheet. De $\alpha$-helix vorm zal uitsluitend met zichzelf een waterstofbrug vormen, wat zal leiden tot een vorm zoals te zien is in het linker deel van figuur \ref{fig:secundairestructuurtype}. Een $\beta$-sheet daarentegen kan interacties vormen met andere peptiden, maar dit is niet altijd noodzakelijk. Het kan ook voorkomen dat een peptide met zichzelf een $\beta$-sheet vormt zoals te zien is op het rechter deel van figuur \ref{fig:secundairestructuurtype}. We spreken hierbij over antiparallel en parallel.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{SecundaireStructuurType}
@@ -1033,7 +1040,7 @@ We zien deze vouwen hoofdzakelijk terugkomen onder de vorm van een $\alpha$-heli
 \end{figure}
 \newpage
 \paragraph{Tertiaire structuur}
-De tertiaire structuur van een proteïne zegt iets over de globale vouwing van de structuur. Dit gedrag kan is te wijten aan de interacties tussen de zij-ketens van aminozuren:
+De tertiaire structuur van een proteïne bepaalt over de globale vouwing van de structuur. Dit gedrag kan is afkomstig van de interacties tussen de zij-ketens van aminozuren:
 \begin{itemize}
 	\item Van der Waals krachten tussen hydrofobe R-groepen
 	\item H-bruggen tussen polaire R-groepen
@@ -1048,26 +1055,26 @@ Een disulfidebinding ter illustratie:
 	\label{fig:disulfidebinding}
 \end{figure}
 \paragraph{Quaternaire structuur}
-De quaternaire structuur van een proteïne is niet altijd aanwezig, dit komt omdat het iets zegt over de interactie van verschillende volwaardige polypeptiden (subeenheden) om samen een groter geheel te vormen. Deze associatie kan ontstaan door interactie tussen de R-groepen van de aanwezige aminozuren. Een voorbeeld van de quaternaire structuur is hemoglobine.
+De quaternaire structuur van een proteïne is niet altijd aanwezig, omdat het gaat over de interactie tussen verschillende volwaardige polypeptiden (subeenheden) om samen een groter geheel te vormen. Deze associatie kan ontstaan door interactie tussen de R-groepen van de aanwezige aminozuren. Hemoglobine is een voorbeeld van een aminozuur waar de quaternaire structuur wel aanwezig is.
 \subsubsection{Cofactoren} 
-Cofactoren zijn de niet-proteïne gedeelten die associëren met het proteïne. Dit kan gaan om anorganische cofactoren zoals metaalionen of Fe-S clusters, maar ook om organische cofactoren zoals vitaminen of afgeleiden. Deze onderdelen van het proteïne zijn essentieel voor de biologische werking in ons lichaam. Zo heeft hemoglobine een heemgroep ($Fe^{II+}$) nodig om een binding aan te gaan met $O_2$. 
+Cofactoren zijn de niet-proteïne gedeelten die associëren met het proteïne. Dit kan gaan over anorganische cofactoren zoals metaalionen of Fe-S clusters, maar ook om organische cofactoren zoals vitaminen of afgeleiden. Deze onderdelen van het proteïne zijn essentieel voor de biologische werking in ons lichaam. Zo heeft hemoglobine een heemgroep ($Fe^{II+}$) nodig om een binding aan te gaan met $O_2$ en vervolgens de $O_2$ doorheen het lichaam te transporteren. 
 \newpage
 \subsubsection{Denaturatie} 
-Denaturatie is het breken van zwakke interacties binnen een proteïne structuur. Dit gaat dus om het breken van de secundaire, tertiaire en quaternaire structuur, maar niet om de primaire structuur. Omdat de 3D-structuur volledig veranderd, verliest het proteïne wel zijn mogelijkheid om zijn functie uit te voeren. Vaak zal dit leiden tot de coagulatie en percipitatie van de eiwitten.
+Denaturatie is het breken van zwakke interacties binnen een proteïne structuur. De secundaire, tertiaire en quaternaire structuur zullen breken, maar de primaire structuur niet. Aangezien de 3D-structuur volledig veranderd, verliest het proteïne zijn mogelijkheid om zijn functie uit te voeren. Vaak zal dit leiden tot de coagulatie (klontervorming) en percipitatie (neerslagvorming) van de eiwitten.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Denaturatie}
 	\caption[Denaturatie]{Denaturatie van proteïnen}
 	\label{fig:denaturatie}
 \end{figure}\\
-We kunnen vaak het denaturatie proces op gang brengen door warmte aan te brengen, de pH te wijzigen, interacties met detergenten of solventen, interactie met zware metalen of zelfs mechanische spanning aan te brengen. 
+We kunnen vaak het denaturatie proces op gang brengen door de temperatuur te verhogen, de pH te wijzigen, interacties met detergenten of solventen, interactie met zware metalen of zelfs mechanische spanning aan te brengen. 
 \subsection{Voorbeelden en toepassingen}
 Staat relatief duidelijk in de powerpoint. 
 
 \newpage
 \section{DNA biologie}
 \subsection{Functie van DNA en RNA}
-DNA en RNA zijn allebei opgebouwd uit lineaire ketens van nucleotiden. Concreet betekend dit dat er een ruggengraat van suiker en fosfaat aanwezig is om de structuur te ondersteunen. Het specifieke suikermolecuul verschilt wel voor DNA en RNA, respectievelijk worden ze gemaakt met desoxyribose en ribose. Aan elk suikermolecuul hangt een stikstofhoudende base (Adenine (A), Guanine (G), cytosine (C), Thymine (T) / Uracil (U)).
+DNA en RNA zijn allebei opgebouwd uit lineaire ketens van nucleotiden. Concreet betekend dit dat er een ruggengraat aanwezig is van suiker en fosfaat om de structuur te ondersteunen. Het specifieke suikermolecuul verschilt wel voor DNA en RNA, respectievelijk worden ze gemaakt met desoxyribose en ribose. Verder hangt er aan elk suikermolecuul een stikstofhoudende base die kan variëren: \\Adenine (A), Guanine (G), Cytosine (C), Thymine (T) bij DNA / Uracil (U) bij RNA.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{DNAStructuur}
@@ -1077,15 +1084,13 @@ DNA en RNA zijn allebei opgebouwd uit lineaire ketens van nucleotiden. Concreet 
 Iedere groep van minimaal één fosfaat groep, suikermolecule en stikstofbase heet een nucleotide. Dit zijn de bouwblokken waaruit een DNA of RNA streng wordt opgebouwd. 
 \subsubsection{Structuur nucleotiden}
 \paragraph{Structuur van stikstofbasen}
-We maken een onderscheid tussen Pyrimidines (Y) en Purines (R) zoals te zien is op figuur \ref{fig:structuurstikstofbase}.
+We maken een onderscheid tussen Pyrimidines (Y) en Purines (R). Het duidelijkste verschil tussen beide is dat pyrimidines slechts één koolstofring hebben terwijl purines er twee hebben, zoals te zien is op figuur \ref{fig:structuurstikstofbase}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{StructuurStikstofBase}
 	\caption[StructuurStikstofBase]{Verschil tussen Pyrimidines en Purines}
 	\label{fig:structuurstikstofbase}
 \end{figure}\\
-Het duidelijkste verschil tussen beide is dat pyrimidines slechts één koolstofring hebben terwijl purines er twee hebben. 
-\newpage
 \paragraph{Phosphodiëster binding}
 \begin{figure}[h]
 	\centering
@@ -1102,7 +1107,7 @@ Het duidelijkste verschil tussen beide is dat pyrimidines slechts één koolstof
 	\caption[Primaire structuur DNA]{Primaire structuur nucleïnezuren}
 	\label{fig:primairestructuurdna}
 \end{figure}
-We zien in figuur \ref{fig:primairestructuurdna} dat een nucleïnezuur gewoon een opvolging is van verschillende nucleotiden. De verbinding tussen deze nucleotiden wordt gemaakt met een phosphodiëster binding. We merken ook op dat dit specifiek streng georiënteerd is volgens 5'P-3'OH. 
+We zien in figuur \ref{fig:primairestructuurdna} dat een nucleïnezuur gewoon een opvolging is van verschillende nucleotiden. De verbinding tussen deze nucleotiden bestaat uit een phosphodiëster binding. We merken ook op dat dit specifiek streng georiënteerd is volgens 5'P-3'OH. 
 \newpage
 \paragraph{Secundaire structuur DNA}
 \begin{figure}[h]
@@ -1111,7 +1116,7 @@ We zien in figuur \ref{fig:primairestructuurdna} dat een nucleïnezuur gewoon ee
 	\caption[Secundaire structuur DNA]{Secundaire structuur DNA}
 	\label{fig:secundairestructuurdna}
 \end{figure}
-Bij DNA zullen we altijd twee anti-parallelle strengen vinden met complementaire nucleotiden (A\&T en G\&C). Deze voorwaarden zijn noodzakelijk om de waterstof bruggen te kunnen vormen tussen beide strengen. Dit zal op zich leiden tot de typische dubbele helix structuur van DNA. 
+Bij DNA zullen we altijd twee anti-parallelle strengen vinden met complementaire nucleotiden (A\&T en G\&C). Deze voorwaarden zijn noodzakelijk om de waterstof bruggen te kunnen vormen tussen beide strengen. Uiteindelijk leidt dit tot de typische dubbele helix structuur van DNA. 
 
 \paragraph{Secundaire structuur RNA}
 \begin{figure}[h]
@@ -1120,7 +1125,7 @@ Bij DNA zullen we altijd twee anti-parallelle strengen vinden met complementaire
 	\caption[Secundaire structuur RNA]{Secundaire structuur RNA}
 	\label{fig:secundairestructuurrna}
 \end{figure}
-Bij RNA zien we vaak slechts één streng. We kennen verschillende types van RNA, als voorbeeld kijken we naar tRNA op figuur \ref{fig:secundairestructuurrna}. We zien hier net zoals bij DNA ook de anti-parallelle oriëntatie op plaatsen waar waterstofbruggen gevormd worden. Deze basen-paring is meestal intramoleculair bij RNA. 
+Bij RNA zien we vaak slechts één streng. We kennen verschillende types van RNA, bijvoorbeeld tRNA (figuur \ref{fig:secundairestructuurrna}). We zien hier net zoals bij DNA ook de anti-parallelle oriëntatie op plaatsen waar waterstofbruggen gevormd worden. Deze basen-paring is meestal intramoleculair bij RNA. 
 \newpage
 \paragraph{Tertiaire/quaternaire structuur DNA}
 \begin{figure}[h]
@@ -1129,9 +1134,9 @@ Bij RNA zien we vaak slechts één streng. We kennen verschillende types van RNA
 	\caption[Tertiaire structuur DNA]{Tertiaire structuur DNA}
 	\label{fig:tertiairestructuurdna}
 \end{figure}
-Een volledig streng DNA kan tot twee meter lang zijn. Op zichzelf past het dus niet in een cel of celkern. Door het streng sterk op te vouwen kunnen we de omvang van het DNA sterk verminderen. Het volledige proces is visueel weergegeven op figuur \ref{fig:tertiairestructuurdna}. De individuele stappen zijn:
-\begin{enumerate}
-	\item het DNA wordt twee maal rond histonen gewonden 
+Een volledig streng DNA kan tot twee meter lang zijn. Op zichzelf past het dus niet in een cel of celkern. Door de streng sterk op te vouwen, kunnen we de omvang van het DNA sterk verminderen. Het volledige proces is visueel weergegeven op figuur \ref{fig:tertiairestructuurdna}. De individuele stappen zijn:
+\begin{enumerate}[a)] 
+	\item Het DNA wordt twee maal rond histonen gewonden 
 	\item De histonen worden op een ordentelijke manier gestapeld
 	\item De keten gestapelde histonen wordt opgevouwen tot `looped domains'
 	\item Deze looped domains worden verder samen gedrukt tot chromosomen
@@ -1141,8 +1146,8 @@ Het chromosoom is de finale vorm van de vouwing. Deze structuur is groot genoeg 
 \subsubsection{Functie van DNA en RNA}
 \paragraph{Functie van DNA}
 \begin{itemize}
-	\item Drager van genetische informatie
-	\item Draagt genetische informatie over naar toekomstige generaties
+	\item Genetische informatie dragen
+	\item Genetische informatie overdragen naar toekomstige generaties
 	\item Wijzigingen in DNA maken evolutie mogelijk
 \end{itemize}
 \paragraph{Functie van RNA}
@@ -1167,15 +1172,14 @@ In deze cursus zullen we ons beperken tot de basis van het centraal dogma. Het s
 \end{figure}
 
 \subsubsection{DNA replicatie}
+DNA replicatie komt vooral voor tijdens de celdeling om genetische informatie te kopiëren. Het proces loopt op een semi-conservatieve basis, dit wil zeggen dat de aanmaak van een nieuwe DNA keten gebeurd op basis van complementariteit met de helft van de originele keten zoals geïllustreerd is op figuur \ref{fig:dnareplicatie}.\\ 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{DNAReplicatie}
 	\caption[DNA replicatie]{DNA replicatie}
 	\label{fig:dnareplicatie}
-\end{figure}
-DNA replicatie wordt vooral gebruikt tijdens de celdeling om genetische informatie te kopiëren. Het proces loopt op een semi-conservatieve basis, dit wil zeggen dat de aanmaak van een nieuwe DNA keten gebeurd op basis van complementariteit met de helft van de originele keten zoals geïllustreerd is op figuur \ref{fig:dnareplicatie}. 
-
-Concreet wordt een DNA streng eerst in zijn twee originele strengen opgesplitst (denaturatie), zo zijn er twee ketens om als template te gebruiken voor de nieuwe strengen. Na de splitsing zal het enzym DNA Polymerase nieuwe nucleotiden toe voegen zodat er opnieuw een dubbele helix gevormd kan worden uit één keten. Hierbij merken we nog op dat DNA Polymerase enkel zorgt voor de verlenging van een keten. We hebben dus ook een startpositie (primer) nodig om het proces op een correcte manier te beginnen.
+\end{figure}\\
+Concreet wordt een DNA streng eerst in zijn twee originele strengen opgesplitst (denaturatie). Zo zijn er twee ketens om als template/mal te gebruiken voor de nieuwe strengen. Na de splitsing zal het enzym DNA Polymerase nieuwe nucleotiden toevoegen zodat er opnieuw een dubbele helix gevormd kan worden uit één keten. Hierbij merken we nog op dat DNA Polymerase enkel zorgt voor de verlenging van een keten. We hebben dus ook een startpositie (primer) nodig om het proces op een correcte manier te beginnen.
 
 \subsubsection{Transcriptie en mRNA processing}
 \begin{figure}[h]
@@ -1185,16 +1189,16 @@ Concreet wordt een DNA streng eerst in zijn twee originele strengen opgesplitst 
 	\label{fig:transcriptie}
 \end{figure}
 
-Transcriptie is het proces waarbij genetische informatie van DNA word omgezet naar mRNA. Dit bevat dan alle informatie die noodzakelijk is voor de aminozuur volgorde bij de proteïnesynthese. Om transcriptie te verwezenlijken wordt een lokaal deel van het DNA ontwonden zodat het enzym RNA Polymerase een kopie kan maken door een complementair streng RNA op te bouwen. Zoals op figuur \ref{fig:transcriptie} te zien is, zijn er ook promotors en terminators aanwezig.Deze geven informatie over de regio en lengte die een transcriptie moet ondergaan. 
+Transcriptie is het proces waarbij genetische informatie van DNA wordt omgezet naar mRNA. Dit bevat dan alle informatie die noodzakelijk is voor de volgorde van de aminozuren bij de proteïnesynthese. Om transcriptie te verwezenlijken, wordt een lokaal deel van het DNA ontwonden zodat het enzym RNA Polymerase een kopie kan maken door een complementair streng RNA op te bouwen. Zoals op figuur \ref{fig:transcriptie} te zien is, zijn er ook promotors en terminators aanwezig.Deze geven informatie over de regio en lengte die een transcriptie moet ondergaan. 
 \newpage
 \paragraph{mRNA processing}
-mRNA processing is een extra stap die gemaakt wordt in de nucleus van eukaryoten voor het transport naar het cytoplasma. We zien drie belangrijke stappen:
-\begin{itemize}
+mRNA processing is een extra stap die doorgaat in de nucleus van eukaryoten voor het transport naar het cytoplasma. We zien drie belangrijke stappen:
+\begin{enumerate}
 	\item Aanhechting gemodificeerd G aan 5’ uiteinde (“Capping”)
 	\item Aanhechting Poly-A staart aan 3’ uiteinde
 	\item Uitsplitsen van niet-coderende regio’s (intronen) uit prematuur mRNA en
 	koppelen van coderende regio’s (exonen) (“Splicing”) 
-\end{itemize}
+\end{enumerate}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{mRNAProcessing}
@@ -1203,22 +1207,22 @@ mRNA processing is een extra stap die gemaakt wordt in de nucleus van eukaryoten
 \end{figure}
 \newpage
 \subsubsection{Translatie}
-Translatie is het proces waarbij de informatie van het mRNA naar een aminozuur-opeenvolging wordt omgezet in het ribosoom. Op het mRNA staan namelijk groepen van drie nucleotiden (codon) die staan voor een aminozuur of start/stop groep. Specifieke transfer RNA (tRNA) moleculen hebben een anticodon die kan binden met het juiste codon om het correcte aminozuur af te leveren. Figuur \ref{fig:codontable} toont de correlatie tussen het codon en het vereiste aminozuur.
+Translatie is het proces waarbij de informatie van het mRNA wordt omgezet naar een aminozuur-opeenvolging in het ribosoom. Op het mRNA staan namelijk groepen van drie nucleotiden (codon), die elks staan voor ander aminozuur of start/stop groep. Specifieke transfer RNA moleculen (tRNA) hebben een anticodon dat kan binden met het juiste codon om het correcte aminozuur af te leveren. Figuur \ref{fig:codontable} toont de correlatie tussen het codon en het vereiste aminozuur.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{CodonTable}
 	\caption[Codon Tabel]{Codon tabel}
 	\label{fig:codontable}
 \end{figure}\\
-De translatie zelf gebeurt in het ribosoom. Deze bestaat namelijk uit twee subeenheden opgebouwd uit diverse proteïnen en rRNA moleculen (groot en klein zoals in figuur \ref{fig:werkingribosoom}). Het biedt een bindingsplaats voor het mRNA en twee holtes voor de binding van het aminozuur tRNA (P site (tRNA met groeiende peptide keten) en A site (voor tRNA dat nieuw AZ aanbrengt)). Tot slot is er ook nog een E site, hier verlaten gebruikte rRNA moleculen het ribosoom. 
+De eigelijke translatie gebeurt in het ribosoom. Deze bestaat namelijk uit twee subeenheden opgebouwd uit diverse proteïnen en rRNA moleculen (groot en klein zoals in figuur \ref{fig:werkingribosoom}). Het biedt een bindingsplaats voor het mRNA en twee holtes voor de binding van het aminozuur tRNA (P site (tRNA met groeiende peptide keten) en A site (voor tRNA dat nieuw AZ aanbrengt)). Tot slot is er ook nog een E site, hier verlaten gebruikte rRNA moleculen het ribosoom. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{WerkingRibosoom}
 	\caption[Werking ribosoom]{Werking ribosoom}
 	\label{fig:werkingribosoom}
 \end{figure}\\
-Translatie bestaat uit drie stappen: initiatie, elongatie en terminatie. 
 \newpage
+Translatie bestaat uit drie stappen: initiatie, elongatie en terminatie. 
 \paragraph{Initiatie}
 \begin{itemize}
 	\item Associatie van kleine ribosoom subeenheid met mRNA en “initiator tRNA” met eerste AZ van de peptideketen in de P-site
