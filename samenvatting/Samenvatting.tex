@@ -1443,13 +1443,56 @@ Een recent voorbeeld waarbij PCR wordt gebruikt, is om SARS-Cov-2 te detecteren.
 \subsubsection{DNA Fingerprinting}
 DNA fingerprinting oftewel genetic fingerprinting is de term waarmee we verwijzen naar het feit dat het DNA van ieder levend organisme uniek is. We kunnen met andere woorden onderscheid maken tussen verschillende individuen, gebaseerd op discriminerende DNA-regio's (specifieke nucleotidesequenties). Amplificatie van deze specifieke regio(‘s) gebeurd met PCR: variatie tussen organismen merken we op op basis van aan/afwezigheid of lengte van het PCR-fragment. PCR-reacties worden geanalyseerd op aanwezigheid/afwezigheid en lengte met behulp van agarose gelelektroforese. Specifiek wordt er gezocht naar `Short Tandem Repeats' STRs, het zijn herhalingen van korte motieven waarvan het aantal herhalingen verschilt van persoon tot persoon. DNA fingerprinting wordt ondermeer gebruikt bij forensisch onderzoek, en het bepalen van biologische ouders. 
 \subsubsection{Detectie voedselfraude}
-
+Om allerhande problemen zoals verdunning, etiketlabel-fraude, $\ldots$ tegen te gaan kan men gebruik maken van PCR om de specifieke samenstelling van voedsel te bepalen. Hierbij wordt DNA-fingerprinting toe gepast om bepaalde targets te vinden. Deze technieken maken het ook mogelijk om de concentratie te bepalen, zodat de waarden op het etiket bevestigd kunnen worden. 
 \subsection{Sequencing en genomics}
+DNA sequencing wil zeggen dat we de volgorde van nucleotiden in een genoom gaan bepalen. Deze inzichten zijn belangrijk omdat ze informatie bevatten over codering, aminozuur sequenties en regulatie van genexpressie. Hiermee kunnen we traceren welke nucleotiden en genen verantwoordelijk zijn voor bijvoorbeeld genetische aandoening.
 \subsubsection{Methodes voor DNA sequenering}
+\paragraph{Eerste generatie sequeneringstechnologieën (Sanger-sequencing)}
+\begin{itemize}
+	\item Leeslengte (“read length”): ~1000 baseparen (bp)
+	\item Aantal fragmenten gesequeneerd per run (“number of reads”): ~100
+\end{itemize}
+\paragraph{Tweede generatie sequeneringstechnologieën (Illumina-sequencing)}
+\begin{itemize}
+	\item Read length: ~250 bp
+	\item Zeer hoge doorvoer: ~$10^9$ sequenties per uitvoering
+\end{itemize}
+\paragraph{Derde generatie sequeneringstechnologieën (Single molecule sequencing)}
+\begin{itemize}
+	\item Ultralange read length (+ 10 kbp)
+	\item Doorvoer: ~\num{500000} (PacBio)
+	\item Lagere nauwkeurigheid
+\end{itemize}
 \subsubsection{Genomics}
-\paragraph{Voorbeelden}
+Genomics draait om het bepalen van de nucleotide sequentie in het hele genoom van een organisme om de structuur, functie en evolutie te bestuderen. Hierbij speelt genoomassemblage (reconstructie van oorspronkelijke genoom met miljoenen korte DNA-sequenties) ook een belangrijke rol.
+\paragraph{Genome annotation}
+\begin{itemize}
+	\item Annotatie is een proces dat een functie toewijst aan specifieke DNA
+	regio’s. Coderende en regulatorische sequenties worden geïdentificeerd,
+	evenals mobiele genetische elementen of repetitieve sequenties.
+	\item Screening op eiwitcoderende genen obv specifieke kenmerken (vb.
+	promoter regio of een open leesraam (“Open reading frame”; ORF)
+	\item ORF begint met het startcodon (ATG) en eindigt met een stopcodon
+	(TAA, TAG of TGA)
+	\item Databases doorzoeken om gelijkenis met goed gekarakteriseerde genen
+	te vinden $\Rightarrow$ BLAST
+\end{itemize}
 \paragraph{Comparative genomics}
+Comparative genomics kijkt naar de verschillen tussen individuen op genoomniveau. Het relateert deze verschillen op genetisch niveau aan verandering in de fenotypes. Hierbij kijkt men vaak naar `single nucleotide polymorphisms' SNPs. Het zijn wijzigingen van één nucleotide op een bepaalde locatie. Hierbij wordt gekeken naar coderende en coderende regio's. Als men hetzelfde aminozuur aantreft spreekt men over een `synonymous substitutie', bij een verandering wordt dit een `nonsynonymous substitution'.\\
+\textbf{Wat is een indel?}
+\begin{itemize}
+	\item Insertie of deletie (verwijdering)
+	\item Wild type: CTAGTA\textbf{T}CG
+	\item mutant: CTA\textcolor{red}{T}GTA\textcolor{red}{\_}CG
+\end{itemize}
+\textbf{Copy number variation (CNV)}
+\begin{itemize}
+	\item Aantal kopijen van genen kan variëren tussen individuen
+	\item Soms geassocieerd met ziekten (bijv. autismespectrumstoornissen en
+	schizofrenie)
+\end{itemize}
 \subsubsection{Metagenomics}
+MetaGenomics gaat over het sequeneren van alle DNA in een monster. Dit om microbiële gemeenschappen te kunnen karakteriseren: welke microben zijn aanwezig in een monster, relatieve abundantie, welke functionele genen zijn aanwezig, $\ldots$. Dit soort studies zijn belangrijk om bijvoorbeeld het belang van de microbiële gemeenschap in het darmstelsel van de mens te snappen. 
 \subsection{Introductie tot bio-informatica}
 \subsubsection{Omics-technologieën}
 \subsubsection{Gebruik van bio-informatica in toegepast onderzoek}
