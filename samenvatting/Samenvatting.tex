@@ -10,7 +10,7 @@
 	BioTechnologie \\
 	Inge Holsbeeks \& Hans Rediers}
 \title{Samenvatting}
-\author{Robbe Decapmaker}
+\author{\href{https://github.com/debber1}{Robbe Decapmaker}}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath, amssymb, amsthm}
@@ -33,7 +33,7 @@
 \begin{document}
 
 \maketitle
-\section*{Dedicated to Simp magnet}
+\section*{In memory of Simp Magnet}
 \section*{Inleiding}
 
 De samenvatting van BioTechnologie. \href{https://github.com/debber1/BioTech}{De source code is te vinden op Github.}\\
@@ -1387,12 +1387,103 @@ Plasmiden zijn kleine cirkelvormige stukjes DNA die voornamelijk in bacteriën w
 	\caption[Plasmids]{Plasmiden}
 	\label{fig:plasmiden}
 \end{figure}
+\newpage
 \subsubsection{Moleculair klonen}
+Bij moleculair klonen modificeren we plasmiden om ze een nieuwe `instructieset' te geven door gebruik te maken van restrictie-enzymen en DNA ligase. Door dit op een correcte manier in te planten bij een bacterie, kunnen we ervoor zorgen dat zijn klonen ook het gemodificeerde plasmide bevat. Zo kunnen we er bijvoorbeeld voor zorgen dat het plasmide de instructies bevat om insuline aan te maken. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\linewidth]{MoleculairKlonen}
+	\caption[Moleculair klonen]{Moleculair Klonen}
+	\label{fig:moleculairklonen}
+\end{figure}
 \subsection{DNA analyse}
-\subsubsection{Gel electrophoresis}
+\subsubsection{Scheiding van DNA-fragmenten met gelelektroforese}                                            
+Gelelektroforese is een techniek om moleculen met een verschillende grote te scheiden. Specifiek voor DNA zal het staal geladen worden in een (agarose) gel om vervolgens in een elektrisch veld geplaatst te worden. Het DNA staal zal dan Migreren naar de positieve pool. Door de toevoeging van een fluoriderende stof kunnen we de beweging van het staal visualiseren. Aan de hand van een referentie kan de grote van het DNA staal bepaald worden. 
 \subsubsection{PCR}
-\subsection{Toepassingen van PCR}
-\subsection{Sequencing en genomics}
-\subsection{Introductie tot bio-informatica}
+PCR oftewel `Polymerase Chain Reaction' is een snelle, goedkope en eenvoudige methode voor exponentiële vermeerdering van identieke kopieën van een specifiek DNA-fragment die ontwikkeld werd in de jaren 80. Deze techniek heeft een hoge gevoeligheid, waardoor er slechts weinig DNA nodig is om het proces te starten. 
 
+Het proces werkt door ongeveer 25 tot 35 cycli te vervolledigen in een thermocycler. Elk van deze cycli bestaat uit drie verschillende stappen: denaturatie, annealing en elongatie. Bij de denaturatie zal de temperatuur opgedreven worden tot ongeveer $95^\circ C$, hierdoor zal de secundaire structuur van DNA verbreken waardoor we de enkelstrengige ketens overhouden. Hierna zal de temperatuur teruggebracht worden tot ongeveer $55 \text{à} 65^\circ C$ om de annealing stap in te zetten. Het doel is om de aanhechting van de primers (staretermoleculen) aan het doelwit DNA (op basis van complementariteit) te bevorderen. De laatste stap in de cyclus trekt de temperatuur omhoog tot $70 \text{à} 75^\circ C$. Hierbij zal de polymerisatie plaats vinden. De schematische weergave van dit proces is te zien op figuur \ref{fig:pcr}.
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{PCR}
+	\caption[PCR]{PCR}
+	\label{fig:pcr}
+\end{figure}
+Om te weten of het PCR proces tot een eind is gekomen kunnen we twee methoden gebruiken:
+\begin{description}
+	\item[Eindpuntdetectie] het PCR-product wordt geanalyseerd met behulp van agarose gelelektroforese op aan- of afwezigheid van een PCR-fragment en dus van doelwit DNA in staal
+	\item[Real-time detectie] kwantitatieve PCR (qPCR) op basis van	fluorescerend signaal dat toeneemt met toenemende hoeveelheden vermenigvuldigd DNA
+\end{description}
+\subsection{Toepassingen van PCR}
+\subsubsection{Detectie en kwantificering van micro-organismen}
+Gebruik maken van PCR om micro-organismen brengt enkele voordelen met zich mee:
+\begin{itemize}
+	\item DNA-gebaseerde detectie is gevoeliger en sneller dan traditionele
+	kweekmethoden
+	\item Alleen doelwit-DNA van specifieke bacteriën wordt versterkt en
+	gedetecteerd (geen doelwit DNA - geen PCR-product)
+	\item Voorbeeld: detectie van E. coli O104 tijdens EHEC-crisis in 2011:
+	amplificatie van DNA uniek voor deze stam
+\end{itemize}
+Een recent voorbeeld waarbij PCR wordt gebruikt, is om SARS-Cov-2 te detecteren. Het proces verloopt in vier stappen (zie ook figuur \ref{fig:coviddetectie}): 
+\begin{enumerate}
+	\item Selectie specifieke doelgen- en primerbindingsplaatsen
+	\item Bemonstering en RNA-extractie
+	\item Virale RNA omgezet in cDNA (reverse transcriptase)
+	\item qPCR voor detectie en kwantificering
+\end{enumerate}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{COVIDDetectie}
+	\caption[Covid detectie]{SARS-Cov-2 detectie}
+	\label{fig:coviddetectie}
+\end{figure}
+\newpage
+\subsubsection{DNA Fingerprinting}
+DNA fingerprinting oftewel genetic fingerprinting is de term waarmee we verwijzen naar het feit dat het DNA van ieder levend organisme uniek is. We kunnen met andere woorden onderscheid maken tussen verschillende individuen, gebaseerd op discriminerende DNA-regio's (specifieke nucleotidesequenties). Amplificatie van deze specifieke regio(‘s) gebeurd met PCR: variatie tussen organismen merken we op op basis van aan/afwezigheid of lengte van het PCR-fragment. PCR-reacties worden geanalyseerd op aanwezigheid/afwezigheid en lengte met behulp van agarose gelelektroforese. Specifiek wordt er gezocht naar `Short Tandem Repeats' STRs, het zijn herhalingen van korte motieven waarvan het aantal herhalingen verschilt van persoon tot persoon. DNA fingerprinting wordt ondermeer gebruikt bij forensisch onderzoek, en het bepalen van biologische ouders. 
+\subsubsection{Detectie voedselfraude}
+
+\subsection{Sequencing en genomics}
+\subsubsection{Methodes voor DNA sequenering}
+\subsubsection{Genomics}
+\paragraph{Voorbeelden}
+\paragraph{Comparative genomics}
+\subsubsection{Metagenomics}
+\subsection{Introductie tot bio-informatica}
+\subsubsection{Omics-technologieën}
+\subsubsection{Gebruik van bio-informatica in toegepast onderzoek}
+\newpage
+\section{Cases in agricultural biotechnology}
+\subsection{Inleiding}
+\subsubsection{Opwarming van de aarde en klimaat verandering}
+\subsubsection{“Feeding the future”}
+\subsubsection{De “European Green Deal”}
+\subsubsection{Circulaire versus lineaire economie}
+\subsubsection{Biotechnologie: drijvende kracht achter bio-gebaseerde economie}
+\subsection{Wat is biotechnologie precies?}
+\subsubsection{Traditionele biotechnologie}
+\subsubsection{Moderne biotechnologie}
+\subsection{Biotechnologie \& duurzame voedselproductie}
+\subsubsection{Traditionele veredeling van gewassen of dieren}
+\subsubsection{“Marker-assisted breeding”}
+\subsubsection{In vitro cultivatie van biomassa}
+\subsection{Biotech gewassen}
+\subsubsection{Verbeterde kwaliteitskenmerken van planten}
+\subsubsection{Methoden}
+\paragraph{Agrobacterium-gemedieerde gentransfer}
+\paragraph{Biolistics}
+\subsubsection{Voorbeelden}
+\paragraph{Bt gewassen}
+\paragraph{Gouden Rijst}
+\paragraph{“Biopharming”}
+\subsubsection{Gezondheids- en milieurisico’s}
+\subsection{Biocontrole organismen}
+\subsubsection{Gebruik van micro-organismen als biomeststoffen}
+\subsubsection{Gebruik van micro-organismen tegen plantenziektes}
+\subsubsection{Integrated Pest Management}
+\subsubsection{Onderzoeksstrategie}
+\subsection{Andere biotechnologische voorbeelden die bijdragen aan duurzaamheid}
+\subsubsection{Productie van biobrandstoffen}
+\subsubsection{Grijze Biotechnologie}
 \end{document}
