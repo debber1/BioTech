@@ -1524,9 +1524,46 @@ Comparative genomics kijkt naar de verschillen tussen individuen op genoomniveau
 \end{itemize}
 \subsubsection{Metagenomics}
 Metagenomics gaat over het sequeneren van al het DNA in een monster om microbiële gemeenschappen te kunnen karakteriseren: welke microben zijn aanwezig in een monster, relatieve abundantie, welke functionele genen zijn aanwezig$\ldots$ Dit soort studies zijn belangrijk om bijvoorbeeld het belang van de microbiële gemeenschap in het darmstelsel van de mens te begrijpen. 
+\newpage
 \subsection{Introductie tot bio-informatica}
 \subsubsection{Omics-technologieën}
+Er bestaan vier soorten omics technologieën binnen de bio-informatica:
+\begin{enumerate}
+	\item (meta)Genomics:
+		\begin{itemize}
+			\item Studie van het genoom van een organisme
+			(gemeenschap)
+			\item Bepaling van de genoomsequentie en analyse van SNP's, Indels,...
+			\item Sequeneringstechnieken met hoge doorvoer (2GS en 3GS)
+		\end{itemize}
+	\item (meta)Transcriptomics:
+		\begin{itemize}
+			\item Studie van de genexpressie in een
+			organisme (gemeenschap)
+			\item Studie genexpressie (regulatie); Nuttige informatie voor annotatie van
+			de genen (het toewijzen van functies aan genen/sequenties)
+			\item RNAseq
+		\end{itemize}
+	\item Proteomics:
+		\begin{itemize}
+			\item Studie van de eiwitten geproduceerd in een organisme
+			\item Bepaling van de structuur en functie van proteïnen
+		\end{itemize}
+	\item Metabolomics:
+		\begin{itemize}
+			\item Studie van het metaboloom, d.w.z. alle metabolieten gesynthetiseerd
+			in een biologisch systeem
+		\end{itemize}
+\end{enumerate}
+Deze technologieën leiden tot een exponentieel groter wordende doorvoer van data. Men heeft behoefte aan diepgaande analyses van deze data die ervoor kunnen zorgen dat er patronen zichtbaar worden. Hierbij komen enkele zaken kijken zoals de collectie en opslag van de data, verder ook het archiveren en delen van resultaten zodat andere onderzoekers zonder problemen kunnen zoeken door oude experimentele data om ze potentieel te hergebruiken. %Deze zin heeft heeeeel veel info lol
+\newline
+
+Bio-informatica is dus een interdisciplinair vakgebied dat methoden en softwaretools ontwikkelt en implementeert om biologische data beter te begrijpen. Deze softwaretools zijn niet gelimiteerd tot enkel data-analyse, zo worden er ook vaak modellen opgesteld, simulaties gemaakt en algoritmes geschreven om biologische systemen beter te beschrijven. 
 \subsubsection{Gebruik van bio-informatica in toegepast onderzoek}
+\paragraph{Case 1: Impact van waterbehandeling}
+In industriële plantenkwekerijen is het verplicht om water te hergebruiken. Omdat dit water in aanraking is gekomen met alle planten en de bodem waarin ze groeien, is er een kans dat er ziekteverwekkende microbiële gemeenschappen aanwezig zijn. Om dit tegen te gaan, wordt het water gefilterd en ontsmet. Hiervoor bestaan twee technieken: peroxide behandeling en hypochloriet behandeling. Het doel van deze casestudy is om te kijken welke behandeling het doeltreffendst is. Men doet dit door stalen te nemen van het water voor én na de behandeling. Vervolgens zal men een illumina sequencing proces uitvoeren om een bio-informatica analyse te kunnen maken van miljoenen DNA sequenties.
+\paragraph{Case 2: Studie om wortelziekte aan te pakken}
+Door de `rhizogenic acgrobacteria' kunnen planten de gekke wortelziekte krijgen. Concreet zullen de planten hierdoor een extreme hoeveelheid wortels aanmaken waardoor het medium waarin ze gekweekt worden minder doordringbaar wordt. Dit leidt tot grote verliezen in opbrengst van tomaat, paprika, $\ldots$ De bacteriën die deze ziekte veroorzaakt werden geïdentificeerd waardoor men het werkingsmechanisme kon ontrafelen met comparative genomics. Met de uitslagen van deze analyse, kan men een oplossing vinden om de ziekte te bestrijden. 
 \newpage
 \section{Cases in agricultural biotechnology}
 \subsection{Inleiding}
