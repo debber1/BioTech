@@ -8,3 +8,5 @@ Feel free to help by making an issue or a PR.
 
 # Contributors
 [Jonathan Valgaeren](https://github.com/ItsAlphie)
+
+[Timo Vandevenne](https://github.com/TimoNotThy)
