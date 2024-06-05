@@ -1,5 +1,5 @@
 # BioTech
-This is a summary of BioTech
+This is a summary of BioTech.
 Feel free to help by making an issue or a PR.
 
 # Contributing
